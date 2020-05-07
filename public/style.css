@@ -1,0 +1,532 @@
+.img1,.img2,.img3,.img4,.img5 {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px 0px 5px;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+} 
+.img1{
+    margin-left: 3em;
+}
+.header1{
+    background-color: rgba(59, 93, 248, 0.904);
+    padding: 10px 10px 10px 10px;
+    color: cornsilk;
+    font-weight: normal;
+}
+.he1{
+    color: green;
+    border: transparent;
+    font-size: small;
+    padding: 4px 10px 4px 10px;
+}
+.p1{
+    display: inline-block;
+    margin: 0px 7em 0px 7em;
+}
+.logo{
+    width: 200px;
+    height: 70px;
+}
+.navbar{
+    z-index: 1;
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 8px 6px 8px 14px;
+    text-decoration: none;  
+}
+.navbar ul li.last{
+    margin-right:11em;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: white;
+}
+.first:hover,.one:hover,.two:hover,.three:hover,.four:hover,.last:hover{
+    background-color:rgba(59, 93, 248, 0.904);
+    border-radius: 50px;
+    
+}
+.navbar ul li a.hm{
+    background-color: rgba(59, 93, 248, 0.904);
+    padding: 8px 5px 8px 14px;
+    border-radius: 50px;
+    color: white;
+}
+.sm{
+    display: none;
+}
+.navbar ul li:hover .sm{
+    display: block;
+    position: absolute;
+    margin-top: 10.7px;
+    font-size: small;
+    font-family: sans-serif;
+    background-color: white;
+    padding-left: 10px;
+    width: auto;
+    border-bottom-left-radius: 5.6px;
+    border-bottom-right-radius: 5.6px;
+}
+.navbar ul li:hover .sm ul{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+    
+}
+.navbar ul li:hover .sm ul li:hover a{
+    padding-left: 10px;
+    color: white;
+}
+.navbar ul li:hover .sm ul li:hover{
+    background-color:rgba(59, 93, 248, 0.904);
+    border-radius: 5px;
+}
+.navbar ul li:hover .sm ul{
+    margin-left: -10px;
+    padding: 5px 0px 0px 0px ;
+}
+.fa-angle-right{
+    padding-left: 7px;
+}
+.fa-caret-right{
+    float: right;
+}
+#rt{
+    margin-left: 7px;
+}
+.sm2{
+    display: none;
+}
+.first:hover .pehli:hover .sm2{
+    display: block;
+    position: absolute;
+    padding-left: 10px;
+    width: auto;
+    border-bottom-left-radius: 5.6px;
+    border-bottom-right-radius: 5.6px;
+    margin-left: 160px;
+    margin-top: -31px;
+    font-size: small;
+    font-family: sans-serif;
+    white-space: nowrap;
+    background-color: white;
+}
+.first:hover .pehli:hover .sm2 ul{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+    padding: 5px 0px 0px 0px ;
+}
+.first:hover .pehli:hover .sm2 ul li a{
+    padding-left: 10px;
+    color: black;
+}
+.first:hover .pehli:hover .sm2 ul li:hover a{
+    margin-left: 10px;
+    color: white;
+    width: fit-content;
+}
+.sm3{
+    display: none;
+}
+.first:hover .doosri:hover .sm3{
+    display: block;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -31px;
+    font-size: small;
+    font-family: sans-serif;
+    white-space: nowrap;
+    background-color: white;
+    padding-left: 10px;
+    width: auto;
+    border-bottom-left-radius: 5.6px;
+    border-bottom-right-radius: 5.6px;
+}
+}
+.first:hover .doosri:hover .sm3 ul{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+}
+.first:hover .doosri:hover .sm3 ul li a{
+    color: black;
+}
+.first:hover .doosri:hover .sm3 ul li:hover a{
+    color: white;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.ssm2{
+    display: none;
+}
+.first:hover .pehli:hover .sm2:hover .pp:hover .ssm2{
+    display: block;
+    position: absolute;
+    padding-left: 10px;
+    width: auto;
+    border-bottom-left-radius: 5.6px;
+    border-bottom-right-radius: 5.6px;
+    margin-left: 168px;
+    margin-top: -31px;
+    font-size: small;
+    font-family: sans-serif;
+    white-space: nowrap;
+    background-color: white;
+}
+.first:hover .pehli:hover .sm2:hover .pp:hover .ssm2 ul{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+}
+.first:hover .pehli:hover .sm2:hover .pp:hover .ssm2 ul li a{
+    color: black;
+}
+.first:hover .pehli:hover .sm2:hover .pp:hover .ssm2 ul li:hover a{
+    color: white;
+    margin-left: 20px;
+}
+.sm4{
+    display: none;
+}
+.first:hover .teesri:hover .sm4{
+    display: block;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -31px;
+    font-size: small;
+    font-family: sans-serif;
+    white-space: nowrap;
+    background-color: white;
+    padding-left: 10px;
+    width: auto;
+    border-bottom-left-radius: 5.6px;
+    border-bottom-right-radius: 5.6px;
+}
+.first:hover .teesri:hover .sm4 ul{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+}
+.first:hover .teesri:hover .sm4 ul li a{
+    color: black;
+}
+.first:hover .teesri:hover .sm4 ul li:hover a{
+    color: white;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.sm{
+    display: none;
+}
+.last:hover .sm{
+    display: block;
+    position: absolute;
+    margin-top: 10.7px;
+    margin-left: -70px;
+    font-size: small;
+    font-family: sans-serif;
+    background-color: white;
+    padding-left: 10px;
+    width: auto;
+    border-bottom-left-radius: 5.6px;
+    border-bottom-right-radius: 5.6px;
+}
+.last:hover .sm ul{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+    
+}
+.last:hover .sm ul li:hover a{
+    padding-left: 10px;
+    color: white;
+}
+.last:hover .sm ul li:hover{
+    background-color:rgba(59, 93, 248, 0.904) ;
+    border-radius: 5px;
+}
+..last:hover .sm ul{
+    margin-left: -10px;
+    padding: 5px 0px 0px 0px ;
+}
+.sm5{
+    display: none;
+}
+.last:hover .chothi:hover .sm5{
+    display: block;
+    position: absolute;
+    margin-left: 103px;
+    margin-top: -30px;
+    font-size: small;
+    font-family: sans-serif;
+    white-space: nowrap;
+    background-color: white;
+    padding-left: 10px;
+    width: auto;
+    border-bottom-left-radius: 5.6px;
+    border-bottom-right-radius: 5.6px;
+}
+.last:hover .chothi:hover .sm5 ul{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+}
+.last:hover .chothi:hover .sm5 ul li a{
+    color: black;
+}
+.last:hover .chothi:hover .sm5 ul li:hover a{
+    color: white;
+    padding-left: 10px;
+}
+.patti{
+    background-color:rgba(59, 93, 248, 0.904) ;
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 65em ;
+    text-align: center;
+}
+.patti p{
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+.intro{
+    text-align: center;
+}
+.intro h1{
+    display: inline-block;
+    font-weight: bolder;
+    font-family: serif;
+    margin-top: 1.1em;
+}
+h1.i{
+    color: rgba(59, 93, 248, 0.904);
+}
+h1.d{
+    color: rgb(1, 110, 1);
+}
+.ii1{
+    text-align: center;
+}
+.ii1 h1{
+    display: inline-block;
+    color:rgb(1, 110, 1) ;
+    margin-top: -8em;
+}
+.ip{
+    text-align: center;
+    color: grey;
+}
+.ip p{
+    margin: 1em 10em 1em 10em;
+    text-align: left;
+}
+.bd{
+    background-color: rgba(0, 45, 248, 0.904);
+    padding: 5em 0em 5em 0em;
+    text-align: center;
+    margin-top: 7em;
+}
+.bd table{
+    margin-left: 5em;
+}
+.bd table tr td{
+    padding: 0px 1em 0px 1em;
+    font-family: serif;
+    
+}
+.bd table tr td.num{
+    font-size: 60px;
+    color: white;
+}
+.bd table tr td.txt{
+    font-size:1em;
+    font-weight: bold;
+    color: white;
+}
+.bd table tr td.txt span{
+    color: rgb(74, 255, 2);
+    font-weight: bold;
+}
+.tb{
+    padding: 5em 0em 5em 0em;
+    margin-top: 1em;
+}
+.tb table tr td div{
+    border: 1px transparent white;
+    background-color:white;
+    margin: 0px 2em 3em 2em;
+    height: 13em;
+    width: 20em;
+    box-shadow: 8px 8px 25px gray;
+    border-radius: 5px;
+}
+.tb table tr td div.marginn{
+    margin-left: 8em;
+}
+.tb table tr td div a{
+    padding: 4em 2em 0em 7em  ;
+    display: inline-block;
+}
+.tb table tr td div span{
+    padding: 5px 2em 0em 6em;
+    display: inline-block;
+    font-size: larger;
+    font-family: serif;
+    color: rgba(59, 93, 248, 0.904);
+    font-weight: bold;
+
+}
+.tb table tr td div#only span{
+    padding-left: 4.5em;
+}
+.st{
+    margin-left: 8em;
+    margin-top: -1em;
+}
+.st table tr td div.ye{
+    color: blue;
+    font-family: serif;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+.st table{
+    margin-left: -7px ;
+}
+.st table tr td div.ye h1{
+    margin-top: -1em;
+    color: green;
+}
+.st table tr td div.ye table tr td div{
+    color: blue;
+    margin: 1em .5em 1em .5em;
+    box-shadow: 4px 4px 25px gray;
+    width: 20em;
+}
+.st table tr td div.ye table tr td div a{
+    text-decoration: none;
+}
+.st table tr td div.ye table tr td div img{
+    margin: 15px 2em 20px 1em;
+}
+.st table tr td div.ue h1{
+    margin-top: -1em;
+    color: green;
+}
+.st table tr td div.ue{
+    margin-top: -1em;
+    margin-left: 3em;
+    color: blue;
+    font-family: serif;
+    font-weight: bolder;
+}
+.st table tr td div.ue div.pa{
+    overflow: scroll;
+    margin-top: -0.62em;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    border-top: 0.5px solid lightgray;
+    width: 400px;
+    height: 200px;
+}
+.ig{
+    margin-top: 2em;
+    margin-left: 9em;
+}
+.ig a img{
+    height: 200px;
+    width: 200px;
+    margin:0px 1em 0px 0px;
+}
+.footer{
+    background-color: rgb(39, 39, 39);
+    margin-top: 10em;
+}
+.footer table{
+    margin: 0px 6em;
+    height: 22em;
+}
+.footer .jh{
+    display: inline-block;
+    margin: 5em 0px 0px 2em;
+    color: gray;
+}
+.footer .jh ul{
+    margin-left: -2.8em;
+    font-size: small;
+}
+.footer .jh li{
+    list-style: none;
+}
+.footer .jh li .fa{
+    color: rgb(27, 109, 27);
+}
+.footer .jk{
+    display: inline-block;
+    margin: -5em 1em 0px 2em;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: serif;
+}
+.footer .jk div{
+    color: rgb(3, 184, 3);
+    display: flex;
+    flex-direction: column;
+    margin-top: -1em;
+}
+.footer .jk h4 span{
+    display: inline-block;
+    color: gray;
+}
+.footer .ji{
+    display: inline-block;
+    margin: -6em 1em 0px 2em;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: serif;
+}
+.footer .ji li{
+    list-style: none;
+    display: block;
+}
+.footer .ji li a{
+    padding: 1em 1em 1em 0em;
+}
+.copyright{
+    background-color: rgba(59, 93, 248, 0.904);
+    color: whitesmoke;
+    font-size: small;
+    padding: 1em 0px 1em 10.2em;
+}
+.fixer{
+    position: fixed;
+    display: block;
+    right: 30px;
+    bottom: 30px;
+}
+.fixer img{
+    width: 3em;
+    height: 3em;
+    border-radius: 8px;
+}
+.fixer:hover img{
+    background-color: lightgray;
+}

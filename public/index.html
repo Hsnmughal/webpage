@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Welfare Trust</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header1">
+        <img src="https://clipartart.com/images/bootstrap-facebook-clipart-6.jpg" alt="facebook" class="img1">
+        <img src="https://pngimg.com/uploads/twitter/twitter_PNG3.png" alt="twitter" class="img2">
+        <img src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/INSTAGRAM-512.png" alt="instagram" class="img3">
+        <img src="https://i7.pngguru.com/preview/5/948/917/youtube-icon-youtube-logo-png.jpg" alt="youtube" class="img4">
+        <img src="data:image/png;base64,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" alt="whatsapp" class="img5">
+        <p class="p1">Millions of people's life has changed, millions more awaiting your donation</p>
+        <input type="submit" value="UK donor" class="he1">
+        <input type="submit" value="Donate Now"  class="he1">
+        <input type="submit" value="SMIT Results" class="he1">
+    </div>
+    <div class="navbar">  
+        <img src="https://dmhqppb4umb6.cloudfront.net/saylani-logo.png" alt="saylani logo" class="logo">
+        <ul>
+            <li><a href="#" class="hm"><i class="fas fa-home"></i>  Home</a></li>
+            <li class="one"><a href="#"><i class="fas fa-address-card"></i>  About <i class="fas fa-caret-down"></i></a>
+                <div class="sm">
+                    <ul>
+                        <li><a href="#">Introduction</a></li>
+                        <li><a href="#">Chairman Message</a></li>
+                        <li><a href="#">Saylani Annual Report</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="first"><a href="#"><i class="far fa-globe-asia"></i>  Saylani Services <i class="fas fa-caret-down"></i></a>
+                <div class="sm">
+                    <ul>
+                        <li class="pehli"><a href="#">Education<i class="fas fa-caret-right"></i></a>
+                            <div class="sm2">
+                                <ul>
+                                    <li class="pp"><a href="#">Saylani Mass Training<i class="fas fa-angle-right"></i></a>
+                                        <div class="ssm2">
+                                            <ul>
+                                                <li><a href="#">SMIT Programs</a></li>
+                                                <li><a href="#">Faculty</a></li>
+                                                <li><a href="#">Results</a></li>
+                                                <li><a href="#">Entry Test Schedule</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Saylani Incubator</a></li>
+                                    <li><a href="#">Green House</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="doosri"><a href="#">Medical<i class="fas fa-caret-right"></i></a>
+                            <div class="sm3">
+                                <ul>
+                                    <li><a href="#">Saylani Blood Bank & Thalassemia Center</a></li>
+                                    <li><a href="#">Saylani Clinic/Hospital</a></li>
+                                    <li><a href="#">Medical Internship Form</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="teesri"><a href="#">Welfare<i class="fas fa-caret-right"></i></a>
+                            <div class="sm4">
+                                <ul>
+                                    <li><a href="#">Family Adoption</a></li>
+                                    <li><a href="#">Wedding Help</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Haj Application Form</a></li>
+                        <li><a href="#">Saylani Dastarkhwan</a></li>
+                        <li><a href="#">Saylani RO Plant</a></li>
+                        <li><a href="#">Online Sadqah</a></li>
+                        <li><a href="#">Online Taweezat/Istekhara</a></li>
+                        <li><a href="#">Saylani Job Bank</a></li>
+                        <li><a href="#">Online Quran Academy</a></li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Saylani Online Masajid</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="two"><a href="#"><i class="fal fa-building"></i>  Future Projects <i class="fas fa-caret-down"></i></a>
+                <div class="sm">
+                    <ul>
+                        <li><a href="#">Saylani University</a></li>
+                        <li><a href="#">Saylani City</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="three"><a href="#"><i class="fas fa-photo-video"></i>  Media</a></li>
+            <li class="four"><a href="#"><i class="fal fa-newspaper"></i>  News</a></li>
+            <li class="last"><a href="#"><i class="fas fa-hand-holding-usd"></i>  Donation <i class="fas fa-caret-down"></i></a>
+                <div class="sm">
+                    <ul>
+                        <li><a href="#">Bank Details</a></li>
+                        <li><a href="#">Sadqa</a></li>
+                        <li><a href="#">Aqiqa</a></li>
+                        <li><a href="#">Other Donations</a></li>
+                        <li><a href="#">Corona Effecties</a></li>
+                        <li class="chothi"><a href="#">Ramzan-2020<i class="fas fa-caret-right"></i></a>
+                            <div class="sm5">
+                                <ul>
+                                    <li><a href="#">For Saudi Donors</a></li>
+                                    <li><a href="#">For Europe Donors</a></li>
+                                    <li><a href="#">For UK Donors</a></li>
+                                    <li><a href="#">For USA Donors</a></li>
+                                    <li><a href="#">For UAE Donors</a></li>
+                                    <li><a href="#">For Pak Donors</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul> 
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="https://www.saylaniwelfare.com/public_html/images/saylani/Banner.jpeg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.saylaniwelfare.com/public_html/images/saylani/slider1.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.saylaniwelfare.com/public_html/images/saylani/ehsaas&saylani.jpeg" alt="Third slide">
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="patti">
+        <p>
+            (News-1 Dated:15-06-2019)  PIAICNext Phase Admission in Islamabad And Faisalabad" . More Details
+        </p>
+    </div>
+    <div class="intro">
+         <h1 class="i">
+            INTRO
+         </h1>
+         <H1 class="d">
+            DUCTION
+        </H1>
+    </div>
+    <div class="ii1">
+    <h1>____</h1>
+    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/favicon.png" alt="" class="i1">
+    <h1>____</h1>
+    </div>
+    <div class="ip">
+        <p>
+            Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani
+            Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial
+            troubles of the poor, giving people a chance to live a dignified life and spreading happiness.
+            <br>
+            <br>
+            We are an organization that believes in lighting up the lives of underprivileged people across the world. We
+            endeavor to provide the best quality services in areas including food, education, medical and social welfare free
+            of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day,
+            hundreds more are given the hope of life through medical health care, many are educated to become leaders of
+            tomorrow and several are given the opportunity to stand on their feet financially.
+            <br>
+            <br>
+            Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125
+            branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and
+            Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide
+            branches are operating under the guidance of a team of over 2,000 working professionals who help almost
+            125,000 people on a daily basis.
+            <br>
+            <br>
+            We strongly believe that a little help goes a long way and our work would not be possible without the generous
+            support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting
+            our causes and enabling us to serve the needs of people in need.
+        </p>
+    </div>
+    <div class="bd">
+        <table>
+            <tr>
+                <td>
+                    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_food_png.png" style="height: 40px;">
+                </td>
+                <td>
+                    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_family_png.png" style="height: 40px;">
+                </td>
+                <td>
+                    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_medical_png.png" style="height: 40px;">
+                </td>
+                <td>
+                    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_education_png.png" style="height: 40px;">
+                </td>
+            </tr>
+            <tr>
+                <td class="num">125,000</td>
+                <td class="num">7,500</td>
+                <td class="num">43,749</td>
+                <td class="num">180,000</td>
+            </tr>
+            <tr>
+                <td class="txt">DAILY DASTRAKHAN<span>(MONTHLY)</span></td>
+                <td class="txt">FAMILY ADOPTION<span>(MONTHLY)</span></td>
+                <td class="txt">MEDICAL<span>(MONTHLY)</span></td>
+                <td class="txt">EDUCATION<span>(MONTHLY)</span></td>
+            </tr>
+        </table>
+    </div>
+    <div class="intro">
+        <h1 class="i">
+            WHAT WE
+        </h1>
+        <H1 class="d">
+            ARE DOING?
+        </H1>
+    </div>
+    <div class="ii1">
+    <h1>____</h1>
+    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/favicon.png" alt="" class="i1">
+    <h1>____</h1>
+    </div>
+    <div class="tb">
+        <table>
+            <tr>
+                <td>
+                    <div class="marginn">
+                        <a href="#"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/onlinesadqah.png" width="70" alt=""></a>
+                        <span id="head2 ">SADQAH</span>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <a href="#"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/welfare.png" width="70" alt=""></a>
+                        <span id="head2 ">WELFARE</span>
+                    </div>    
+                </td>
+                <td>
+                    <div>
+                        <a href="#"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/medical.png" width="70" alt=""></a>
+                        <span id="head2 ">MEDICAL</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="marginn" id="only">
+                        <a href="#"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/Dastarkhwan.png" width="70" alt=""></a>
+                        <span>DASTARKHWAN</span>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <a href="#"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/ROPLANT.png" width="70" alt=""></a>
+                        <span id="head2 ">RO PLANT</span>
+                    </div>
+                </td>
+                <td>
+                    <div id="only">
+                        <a href="#"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/education.png" width="70" alt=""></a>
+                        <span id="head2 ">EDUCATION</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="st">
+        <table>
+            <tr>
+                <td>
+                    <div class="ye">
+                        <h3>MISSION AND UPCOMING PROJECTS</h3>
+                        <h1>___</h1>
+                        <table>
+                            <tr>
+                            <td>
+                                <div>
+                                    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/Hepatitis.png">
+                                    <a href="#">HEPATITIS</a>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/housing.png">
+                                    <a href="#">HOUSING SOCIETY</a>
+                                </div>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/IT.png">
+                                        <a href="#">IT LITERACY</a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/tharparkar.png">
+                                        <a href="#">THARPARKAR</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <div class="ue">
+                        <h3>Upcoming Events</h3> 
+                        <h1>___</h1>
+                        <div class="pa">
+                            <p>
+                                Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan.
+                                <br><br>
+                                Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad.
+                                <br><br>
+                                Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training .
+                                <br><br>
+                                PIAIC Entrance Exam Merit Ranking List Announced.
+                                <br><br>
+                                President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi.
+                            </p>
+                    </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="intro">
+        <h1 class="i">
+            IMAGE
+        </h1>
+        <H1 class="d">
+            GALLERY
+        </H1>
+    </div>
+    </div>
+    <div class="ii1">
+    <h1>____</h1>
+    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/favicon.png" alt="" class="i1">
+    <h1>____</h1>
+    </div>
+    <div class="ig">
+        <a href="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg" target="_blank"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg"></a>
+        <a href="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/food.jpg" target="_blank"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/food.jpg"></a>
+        <a href="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat.jpg" target="_blank"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat.jpg" ></a>
+        <a href="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg" target="_blank"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg"></a>
+        <a href="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat2.jpg" target="_blank"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat2.jpg"></a>
+    </div>
+    <div class="footer">
+        <table>
+            <tr>
+                <td>
+                    <div class="jh">
+                        <p>Head Office,
+                            <br> A-25, Bahadurabad Chowrangi
+                            Karachi, Pakistan 
+                        </p>
+                        <ul>
+                            <li> <i class="fa fa-phone text-theme-colored mr-5"></i>UAN: 111-729-526  </li>
+                            <li> <i class="fa fa-globe text-theme-colored mr-5"></i>(+0092-213) 4130786-90</li>
+                            <li> <i class="fa fa-phone text-theme-colored mr-5"></i>CELL: 92-311-1729526</li>
+                            <li> <i class="fa fa-phone text-theme-colored mr-5"></i>USA NO +1(716)941 7792 </li>
+                            <li> <i class="fa fa-phone text-theme-colored mr-5"></i>UK NO (+44)115 970 6256 </li>
+                            <li><i class="fa fa-envelope-o text-theme-colored mr-5"></i>info@saylaniwelfare.com</li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <div class="jk">
+                        <h6>Useful Links</h6>
+                        <div>
+                            <h4>____<span class="line">________________________</span></h4>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="ji">
+                        <h6>Connect With Us</h6>
+                        <li>
+                            <a href="https://www.facebook.com/pg/saylaniwelfare" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/OfficialSwit" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/saylaniwelfare/" target="_blank"><i class="fa fa-instagram text-white"></i></a>
+                            <a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage" target="_blank"><i class="fa fa-youtube text-white"></i></a>
+                        </li>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="copyright">
+        Copyright © 2020 Saylani Welfare
+    </div>
+    <a href="#" class="fixer"><img src="images/Untitled-1.svg"></a>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6e32ab0d66.js" crossorigin="anonymous"></script>
+</body>
+</html> 
